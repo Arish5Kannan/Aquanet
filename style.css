@@ -2,35 +2,22 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: rgb(240, 240, 237);
+    background-color: #f8f9fa;
 }
-#title{
-    color: #f55d16;
-}
-nav{
-    display:flex;
-    justify-content: space-evenly;
-    width:100%;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffffce;
-}
-a{
-    text-decoration: none;
-}
-nav ul  #titles{
+
+.dashboard-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .dashboard-card h3 {
     font-size: 24px;
-    
-}
-nav ul{
-    list-style-type: none;
-}
-nav .links li a{
-    color: #ee9c76;
-}
-nav .links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 60px;  
-}
+    margin: 10px 0;
+  }
+  .dashboard-card p {
+    font-size: 20px;
+    color: #333;
+  }
+
