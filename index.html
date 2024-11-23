@@ -167,7 +167,7 @@
         // Remove the rotation class after 3 seconds
         setTimeout(() => {
             dashboardIcon.classList.remove('rotate');
-        }, 3000); // Adjust time as needed
+        }, 7000); // Adjust time as needed
     };
             
             // Create individual charts
@@ -178,7 +178,7 @@
             createChart(turbidityChartCtx, 'Turbidity', [10, 15, 12, 18], '#66bb6a'); // Example data for Turbidity
     
             const temperatureChartCtx = document.getElementById('temperatureChart').getContext('2d');
-            createChart(temperatureChartCtx, 'Temperature (°C)', [25, 26, 27, 28], 'orangered'); // Example data for Temperature
+            createChart(temperatureChartCtx, 'Temperature (°C)', [25, 21, 27, 28], 'orangered'); // Example data for Temperature
     
             const conductivityChartCtx = document.getElementById('conductivityChart').getContext('2d');
             createChart(conductivityChartCtx, 'Conductivity (µS/cm)', [500, 520, 515, 530], '#ffa726'); // Example data for Conductivity

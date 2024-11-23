@@ -53,6 +53,6 @@ footer a:hover{
 }
 
 .rotate {
-  animation: rotate 4s linear infinite; /* Rotate for 2 seconds continuously */
+  animation: rotate 2s linear infinite; /* Rotate for 2 seconds continuously */
 }
 
